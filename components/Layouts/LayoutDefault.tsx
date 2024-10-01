@@ -8,14 +8,14 @@ interface LayoutDefaultProps {
 
 export default function LayoutDefault(props: LayoutDefaultProps) {
   return (
-    <>
+    <div class="flex flex-col justify-between flex-1 gap-8">
       <Header />
 
-      <main id="main-content">
+      <main id="main-content" class="flex-1">
         {props.children}
       </main>
 
       <Footer />
-    </>
+    </div>
   );
 }
