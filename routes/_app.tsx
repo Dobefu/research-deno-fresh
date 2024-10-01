@@ -7,8 +7,8 @@ export default function App({ Component }: PageProps) {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>research-deno-fresh</title>
-        <link rel="stylesheet" href="/styles.css" />
+        <title>Research - Fresh</title>
+        <link rel="stylesheet" href="/main.css" />
       </head>
       <body>
         <LayoutDefault>
