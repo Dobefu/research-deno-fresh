@@ -1,4 +1,6 @@
 import { type PageProps } from "$fresh/server.ts";
+import LayoutDefault from "../components/Layouts/LayoutDefault.tsx";
+
 export default function App({ Component }: PageProps) {
   return (
     <html>
@@ -9,7 +11,9 @@ export default function App({ Component }: PageProps) {
         <link rel="stylesheet" href="/styles.css" />
       </head>
       <body>
-        <Component />
+        <LayoutDefault>
+          <Component />
+        </LayoutDefault>
       </body>
     </html>
   );
