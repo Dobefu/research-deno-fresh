@@ -7,7 +7,7 @@ export default function Error404() {
         <title>404 - Page not found</title>
       </Head>
 
-      <div>
+      <>
         <img
           class="my-6"
           src="/logo.svg"
@@ -20,7 +20,7 @@ export default function Error404() {
           The page you were looking for doesn't exist.
         </p>
         <a href="/" class="underline">Go back home</a>
-      </div>
+      </>
     </>
   );
 }
