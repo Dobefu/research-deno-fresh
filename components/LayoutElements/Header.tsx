@@ -1,9 +1,9 @@
 export default function Header() {
   return (
     <header class="p-4">
-      <a href="/" class="text-lg flex items-center gap-4 font-medium">
+      <a href="/" class="text-lg flex flex-col items-center gap-4 font-medium">
         <img
-          class="w-16 h-16"
+          class="w-12 h-12"
           src="/logo.svg"
           alt="The Dobefu logo"
         />
