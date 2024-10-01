@@ -1,11 +1,15 @@
-# dotenv environment variable files
+# Dotenv environment variable files.
 .env
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
 
-# Fresh build directory
+# Fresh build directory.
 _fresh/
-# npm dependencies
+
+# NPM dependencies.
 node_modules/
+
+# MacOS directory layout store files.
+.DS_Store
