@@ -10,7 +10,11 @@ export default function LayoutDefault(props: LayoutDefaultProps) {
   return (
     <>
       <Header />
-      {props.children}
+
+      <main id="main-content">
+        {props.children}
+      </main>
+
       <Footer />
     </>
   );
