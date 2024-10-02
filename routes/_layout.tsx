@@ -1,21 +1,17 @@
-import { VNode } from "preact";
 import Header from "../components/LayoutElements/Header.tsx";
 import Footer from "../components/LayoutElements/Footer.tsx";
+import { defineLayout } from "$fresh/server.ts";
 
-interface LayoutDefaultProps {
-  children: VNode;
-}
-
-export default function LayoutDefault(props: LayoutDefaultProps) {
+export default defineLayout((_req, ctx) => {
   return (
     <div class="flex flex-col justify-between flex-1 gap-4">
       <Header />
 
       <main id="main-content" class="flex-1 p-4">
-        {props.children}
+        <ctx.Component />
       </main>
 
       <Footer />
     </div>
   );
-}
+});
