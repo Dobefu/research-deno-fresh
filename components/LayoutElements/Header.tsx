@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header class="p-4 py-2 shadow-md">
+    <header class="p-4 py-2 shadow-md bg-white">
       <a href="/" class="text-lg flex flex-col items-center gap-2 font-medium">
         <img
           class="w-12 h-12"

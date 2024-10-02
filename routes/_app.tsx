@@ -10,7 +10,7 @@ export default function App({ Component }: PageProps) {
         <title>Research - Fresh</title>
         <link rel="stylesheet" href="/main.css" />
       </head>
-      <body class="min-h-full flex flex-col">
+      <body class="min-h-full flex flex-col bg-gray-50">
         <LayoutDefault>
           <Component />
         </LayoutDefault>
