@@ -1,6 +1,6 @@
-import Header from "../LayoutElements/Header.tsx";
-import Footer from "../LayoutElements/Footer.tsx";
 import { VNode } from "preact";
+import Header from "../components/LayoutElements/Header.tsx";
+import Footer from "../components/LayoutElements/Footer.tsx";
 
 interface LayoutDefaultProps {
   children: VNode;

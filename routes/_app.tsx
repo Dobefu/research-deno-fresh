@@ -1,5 +1,4 @@
 import { type PageProps } from "$fresh/server.ts";
-import LayoutDefault from "../components/Layouts/LayoutDefault.tsx";
 
 export default function App({ Component }: PageProps) {
   return (
@@ -10,10 +9,9 @@ export default function App({ Component }: PageProps) {
         <title>Research - Fresh</title>
         <link rel="stylesheet" href="/main.css" />
       </head>
+
       <body class="min-h-full flex flex-col bg-gray-50">
-        <LayoutDefault>
-          <Component />
-        </LayoutDefault>
+        <Component />
       </body>
     </html>
   );
